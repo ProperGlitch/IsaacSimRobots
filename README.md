@@ -2,7 +2,8 @@
 
 High-fidelity simulation environments for autonomous robotic systems in industrial settings. Built with NVIDIA Isaac Sim 5.1 using SimReady assets, URDF-imported robots, and PhysX cable simulation.
 
-![Data Center Environment](renders/datacenter_hero.png)
+![Data Center Environment](https://github.com/ProperGlitch/IsaacSimRobots/blob/main/DataCenterTwo.usd)
+![Warehouse Environment](https://github.com/ProperGlitch/IsaacSimRobots/blob/main/Warehouse.usd)
 
 ---
 
@@ -36,6 +37,7 @@ Both environments built from NVIDIA SimReady USD asset packs:
 ## Robots
 
 ### Clearpath Husky (URDF Import)
+- ![Github Location](https://github.com/bulletphysics/bullet3/tree/master/data/husky)
 - Source: [clearpathrobotics/husky]
 - Type: 4WD skid-steer
 - Import: File → Import → URDF, Moveable Base selected
@@ -43,7 +45,8 @@ Both environments built from NVIDIA SimReady USD asset packs:
 - Sensor: Forward-facing RGB camera attached to robot prim
 - Known issues during import: `$(optenv ...)` ROS environment variables in URDF must be replaced with plain values before import
 
-### Fetch Mobile Manipulator (URDF Import)  
+### Fetch Mobile Manipulator (URDF Import)
+- ![Github Location](https://github.com/IRVLUTD/fetch_ros_IRVL/tree/ros1/fetch_description)
 - Source: fetchrobotics/fetch_ros
 - Type: Differential drive with arm
 - Import: `package://fetch_description/meshes/` paths in URDF must be replaced with absolute local paths before import (VS Code find/replace)
