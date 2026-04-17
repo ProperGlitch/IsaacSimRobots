@@ -50,10 +50,10 @@ def on_keyboard_event(event, *args, **kwargs):
     if event.type == carb.input.KeyboardEventType.KEY_PRESS:
         if event.input == carb.input.KeyboardInput.UP:
             print("forward")
-            set_wheel_velocity(400, 400)
+            set_wheel_velocity(300, 300)
         elif event.input == carb.input.KeyboardInput.DOWN:
             print("backward")
-            set_wheel_velocity(-400, -400)
+            set_wheel_velocity(-300, -300)
         elif event.input == carb.input.KeyboardInput.LEFT:
             print("turn left")
             set_wheel_velocity(-200, 200)
