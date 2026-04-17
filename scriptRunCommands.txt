@@ -1,0 +1,2 @@
+exec(open("C:/ProjectsSim/fetch_teleop.py").read())
+exec(open("C:/ProjectsSim/huskymovement.py").read())
